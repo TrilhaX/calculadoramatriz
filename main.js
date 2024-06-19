@@ -11,10 +11,10 @@ function descriptado(n1, n2, m1, m2) {
     resultados.push(sub);
 
     // Verificando se temos 50 resultados
-    if (resultados.length === 25) {
+    if (resultados.length === 26) {
         // Separando os resultados em duas linhas de 25
-        var linha1 = resultados.slice(0, 25);
-        var linha2 = resultados.slice(25, 50);
+        var linha1 = resultados.slice(0, 26);
+        var linha2 = resultados.slice(26, 0);
 
         // Mapeando os resultados para letras e símbolos
         var mapeamento1 = linha1.map(function(num) {
@@ -40,7 +40,7 @@ function descriptado(n1, n2, m1, m2) {
 
         // Solicitando novos valores de m1 e m2
         solicitarMultiplicadores();
-    } else if (resultados.length == 51) {
+    } else if (resultados.length == 53) {
         alert(mapeamento1.join(" ") + mapeamento2.join(" "))
         alert(linha1.join(" ") + linha2.join(" "))
     }
