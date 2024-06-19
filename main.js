@@ -1,6 +1,7 @@
 var resultados = [];
 var m1, m2;
 
+alert("Se não tiver 26 colunas o seu so clicar em ok na coluna 26, tanto no n1 quanto no n2")
 // Função para calcular e armazenar os resultados
 function descriptado(n1, n2, m1, m2) {
     var soma1 = n1 * m1;
