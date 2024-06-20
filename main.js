@@ -71,8 +71,18 @@ function solicitarMultiplicadores() {
     m2 = parseInt(m2);
 }
 
+function chave(a,b,c,d){
+    let determinante = (a * c) + (b * d)
+    alert determinate
+    var n1 = prompt(`Digite o valor de n1 da coluna ${coluna}:`);
+    var n2 = prompt(`Digite o valor de n2 da coluna ${coluna}:`);
+
+    // Convertendo os valores de string para números inteiros
+    n1 = parseInt(n1);
+    n2 = parseInt(n2);
+}
 // Solicitando os multiplicadores pela primeira vez
-solicitarMultiplicadores();
+chave(a,b,c,d);
 
 // Exemplo de como chamar a função solicitarValores várias vezes
 for (var i = 1; i <= 100; i++) {
