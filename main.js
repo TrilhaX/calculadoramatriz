@@ -73,7 +73,7 @@ function solicitarMultiplicadores() {
 
 function chave(a,b,c,d){
     let determinante = (a * c) + (b * d)
-    alert determinate
+    alert(determinante)
     var n1 = prompt(`Digite o valor de n1 da coluna ${coluna}:`);
     var n2 = prompt(`Digite o valor de n2 da coluna ${coluna}:`);
 
